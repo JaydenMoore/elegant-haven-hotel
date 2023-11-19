@@ -1,0 +1,101 @@
+/*
+Programmers: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+File Name: styles.css
+Date: 11/19/2023
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for body and images*/
+body {
+    background-color: #ffffff; /*Update Background Color*/
+}
+  
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for skip navigation link */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+ 
+.skip:focus {
+    color: #fff;
+    background-color: #2a1f14;
+    text-decoration: none;
+    padding: 0.5%;
+    top: auto;
+    left: auto;
+    right: 1px;
+    z-index: 1;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile, .mobile-tablet {
+    display: block;
+}
+
+.tab-desk, .desktop {
+    display: none;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: rgb(13, 111, 202) /* Adjust color later */
+}
+  
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.5em;
+}
+  
+nav li {
+    display: inline;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width:620px),
+print {
+
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width:1000px),
+print {
+
+    /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
+    .desktop {
+        display: block;
+    }
+
+    .mobile-tablet {
+        display: none;
+    }
+}
