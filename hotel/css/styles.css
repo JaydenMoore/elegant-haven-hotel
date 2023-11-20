@@ -49,15 +49,27 @@ img, video {
     display: none;
 }
 
+/* Style rules for body */
+
+body {
+    background-color: #EDF2F4;
+}
+
+/*Instead create a grid box with the image as a left cell and everything else in one big cell
 /* Style rules for navigation area */
 nav {
-    background-color: rgb(13, 111, 202) /* Adjust color later */
+    background-color: #EF233C; /* Adjust color later */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
   
 nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0.5em;
+    background-color:aqua;
 }
   
 nav li {
@@ -67,9 +79,52 @@ nav li {
     font-weight: bold;
 }
 
-nav li a {
+nav li img {
+    display: inline;
+    width: 10%;
+    height: 10%;
+    float: left;
     padding: 0.5em;
+}
+
+nav a:link, nav a:active, nav a:visited{
+    color: white;
+    padding: 1em;
     text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Style Rules for main */
+
+/* Style rules for container elements */
+.container {
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-img {
+    width: 100%;
+    object-fit: fill;
+} 
+
+h1 {
+    text-align: center;
+    padding: 2em
+}
+
+/* Style rules for footer */
+
+footer {
+    background-color: #2B2D42;
+}
+
+.social img {
+    display: inline-block;
+    padding: 4%;
 }
 
 /* Media Query for Tablet Viewport */
