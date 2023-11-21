@@ -79,9 +79,7 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
-    padding: 0.5em;
-    background-color:;
-}
+    padding: 0.5em;}
   
 nav li {
     display: inline;
@@ -129,7 +127,7 @@ main{
 
 h1 {
     text-align: center;
-    padding: 2em
+    padding: 2em;
     font-family: 'Aguafina Script', cursive;
 }
 
