@@ -49,6 +49,17 @@ img, video {
     display: none;
 }
 
+/*Style rules for header area */
+h1 {
+    font-family: 'Aguafina Script', cursive;
+
+}
+
+h3 {
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
 /* Style rules for body */
 
 body {
@@ -58,7 +69,7 @@ body {
 /*Instead create a grid box with the image as a left cell and everything else in one big cell
 /* Style rules for navigation area */
 nav {
-    background-color: #EF233C; /* Adjust color later */
+    background-color: #d5b306;
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -69,7 +80,7 @@ nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0.5em;
-    background-color:aqua;
+    background-color:;
 }
   
 nav li {
@@ -91,6 +102,7 @@ nav a:link, nav a:active, nav a:visited{
     color: white;
     padding: 1em;
     text-decoration: none;
+    font: bold;
 }
 
 nav li a:hover {
@@ -98,6 +110,10 @@ nav li a:hover {
 }
 
 /* Style Rules for main */
+main{
+    font-family: 'Lora', serif;
+
+}
 
 /* Style rules for container elements */
 .container {
@@ -114,12 +130,22 @@ nav li a:hover {
 h1 {
     text-align: center;
     padding: 2em
+    font-family: 'Aguafina Script', cursive;
 }
+
+    
 
 /* Style rules for footer */
 
 footer {
-    background-color: #2B2D42;
+    background-color: #d5b306;
+    text-align: center;
+    font-size: 0.85em;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .social img {
