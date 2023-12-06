@@ -1,11 +1,14 @@
 /*
-Programmers: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
 File Name: styles.css
+Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+Course: COP 2822C at Valencia College
+Professor: David Stendel 
+Description: The styles page is where all of the code for the websites styles are held for the programmers eyes only.
 Date: 11/19/2023
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul, img {
+body, header, nav, main, footer, img, h1, h2, h3, h4, ul, img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,7 +20,8 @@ body {
 }
   
 img, video {
-    max-width: 100%;
+    max-width: 50%;
+    max-height: 50%;
     display: block;
 }
 
@@ -53,6 +57,7 @@ img, video {
 h1 {
     font-family: 'Roboto', sans-serif;
 
+
 }
 
 h3 {
@@ -60,10 +65,18 @@ h3 {
 
 }
 
+h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-bottom: 4%;
+    font-size: 5em;
+    text-decoration: wavy;
+}
+
 /* Style rules for body */
 
 body {
-    background-color: #EDF2F4;
+    background-color: #ededebd9;
 }
 
 /*Instead create a grid box with the image as a left cell and everything else in one big cell
@@ -73,13 +86,15 @@ nav {
     overflow: auto;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
   
 nav ul {
     list-style-type: none;
     text-align: center;
-    padding: 0.5em;}
+    padding: 0.5em;
+}
   
 nav li {
     display: inline;
@@ -92,8 +107,8 @@ nav li img {
     display: inline;
     width: 10%;
     height: 10%;
-    float: left;
     padding: 0.5em;
+    float: left
 }
 
 nav a:link, nav a:active, nav a:visited{
@@ -108,14 +123,74 @@ nav li a:hover {
 }
 
 /* Style Rules for main */
-main{
+main { 
     font-family: 'Lora', serif;
 
 }
 
+ /* Styling for featured rooms and packages */
+ #content {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 2px solid #ffffff;
+}
+
+th, td {
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.package {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ /* Style rules for testimonials */
+ .testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.testimonial-text {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1.1em;
+    color: #888;
+}
+
 /* Style rules for container elements */
 .container {
-    max-height: 400px;
+    max-height: 700px;
     width: 100%;
     overflow: hidden;
 }
@@ -128,9 +203,7 @@ main{
 h1 {
     text-align: center;
     padding: 2em;
-    font-family: 'Aguafina Script', cursive;
 }
-
     
 
 /* Style rules for footer */
