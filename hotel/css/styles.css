@@ -8,18 +8,7 @@ Date: 11/19/2023
 */
 
 /* CSS Reset */
-body,
-header,
-nav,
-main,
-footer,
-img,
-h1,
-h2,
-h3,
-h4,
-ul,
-img {
+body, header, nav, main, footer, img, h1, h2, h3, h4, ul, img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -31,8 +20,7 @@ body {
     /*Update Background Color*/
 }
 
-img,
-video {
+img, video {
     max-width: 100%;
     max-height: auto;
     display: block;
@@ -58,8 +46,7 @@ video {
 /* Style rules for mobile viewport */
 
 /* Style rules to show mobile class and hide tab-desk class */
-.mobile,
-.mobile-tablet {
+.mobile, .mobile-tablet {
     display: block;
 }
 
@@ -218,17 +205,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     margin-bottom: 15px;
 }
 
-p,
-ul,
-ol,
-li {
+p,ul,ol,li {
     margin-bottom: 10px;
 }
 
@@ -245,8 +226,7 @@ label {
     margin-bottom: 8px;
 }
 
-textarea,
-input {
+textarea, input {
     width: 90%;
     padding: 8px;
     margin-bottom: 16px;

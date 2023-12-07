@@ -2,128 +2,124 @@
 <html lang="en">
 
 	<head>
-<!--  
-	File Name: booking.html
-	Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
-	Course: COP 2822C at Valencia College
-	Professor: David Stendel 
-	Description: The booking page of the website used to allow users to book a hotel room.
-	Date: 11/19/2023
--->
-	<meta charset="utf-8">
-	<title>Elegant Haven Hotel - Template</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/booking.css">
-	<!-- Google Fonts Style Links -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<!--  
+			File Name: booking.html
+			Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+			Course: COP 2822C at Valencia College
+			Professor: David Stendel 
+			Description: The booking page of the website used to allow users to book a hotel room.
+			Date: 11/19/2023
+		-->
+		<meta charset="utf-8">
+		<title>Elegant Haven Hotel - Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/booking.css">
+		<!-- Google Fonts Style Links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-</head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+	</head>
 
-<body>
-	<!-- Skip to Content Link, Change into a nice button that hovers in the bottom right corner -->
-	<a class="skip" href="#content">Skip to Content</a>
-	<div id="wrapper">
-		<header>
-			<!-- Hero Image Here -->
-			<div class="tab-desk container">
-				<!-- Specific content if on tablet or desktop -->
-				<img src="./images/hotel-landscape.jpg" alt="hotel exterior" class="container-img">
-			</div>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html"><img src="./images/ElegantHavenLogo.png"></a></li>
-				<li><a href="events.html">Events</a></li>
-				<li><a href="booking.html">Booking</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="help.html">Help</a></li>
-			</ul>
-		</nav>
-		<!-- Use the main area to add the main content to the webpage -->
-		<main id="content">
-			<div>
-				<h4>Book Now!</h4>
-
-				<h3>Select a Date:</h3>
-				<div class="date-container">
-					<div class="collect-date">
-						<label for="Start Date">Choose a start date:</label>
-						<input type="date" id="start_date" name="Start Date">
-					</div>
-					<div class="collect-date">
-						<label for="Start Date">Choose a end date:</label>
-						<input type="date" id="start_date" name="Start Date">
-					</div>
+	<body>
+		<div id="wrapper">
+			<header>
+				<!-- Hero Image -->
+				<div class="tab-desk container">
+					<img src="./images/hotel-landscape.jpg" alt="hotel exterior" class="container-img">
 				</div>
-				<h3>Room Options:</h3>
-				<table>
-					<tr>
-						<td><img src="./images/pool view2.jpg" alt="Room Type 1"></td>
-						<td><img src="./images/bedroom 3.jpg" alt="Room Type 2"></td>
-						<td><img src="./images/hotel-room2.jpg" alt="Room Type 3"></td>
-					</tr>
-					<tr>
-						<td>Indulge in the epitome of luxury and relaxation with our exquisite Pool View Rooms. Designed
-							to offer a serene escape, these thoughtfully curated accommodations provide a perfect blend
-							of comfort and elegance.</td>
-						<td>Discover unparalleled comfort and sophistication in our Deluxe King Rooms. Crafted with
-							meticulous attention to detail, these rooms offer a perfect blend of luxury and modern
-							amenities for an exceptional stay.</td>
-						<td>Immerse yourself in the charm of our Deluxe Queen Rooms, where timeless elegance meets
-							modern comfort. Thoughtfully designed and meticulously appointed, these rooms offer a
-							delightful retreat for a memorable stay.</td>
-					</tr>
-					<tr>
-						<td>Pool View Rooms</td>
-						<td>Deluxe King Rooms</td>
-						<td>Deluxe Queen Rooms</td>
-					</tr>
-				</table>
-				<label for="Rooms">Choose a room:</label>
-				<select name="cars" id="cars">
-					<option value="room1">Pool View Rooms</option>
-					<option value="room2">Deluxe King Rooms</option>
-					<option value="room3">Deluxe Queen Rooms</option>
-				</select>
-				<div class="padding-space"></div>
-				<h3>Special Requests:</h3>
-				<textarea name="Request" cols="40" rows="7"></textarea>
-				<div class="padding-space"></div>
-				<h3>Confirm!</h3>
-				<input type="submit" value="Submit" class="button">
-			</div>
-		</main>
-		<footer>
-			<div class="copyright">
-				<p>&copy; Copyright 2023 Elegant Haven Inc., (USA) All Rights Reserved.</p>
-				<p><a href="mailto:reservations@eleganthavenhotel.com">reservations@eleganthavenhotel.com</a></p>
-			</div>
-			<div class="social">
-				<a href="https://www.facebook.com" target="_blank">
-					<img src="images/facebook-logo.png" alt="Facebook logo">
-				</a>
-				<a href="https://www.twitter.com" target="_blank">
-					<img src="images/twitter-logo.png" alt="Twitter logo">
-				</a>
-			</div>
-		</footer>
-	</div>
-</body>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html"><img src="./images/ElegantHavenLogo.png"></a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="booking.html">Booking</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="help.html">Help</a></li>
+				</ul>
+			</nav>
+			<!-- Contains all of the main content for the home page --> 
+			<main id="content">
+				<div>
+					<h4>Book Now!</h4>
 
+					<h3>Select a Date:</h3>
+					<div class="date-container">
+						<div class="collect-date">
+							<label for="Start Date">Choose a start date:</label>
+							<input type="date" id="start_date" name="Start Date">
+						</div>
+						<div class="collect-date">
+							<label for="Start Date">Choose a end date:</label>
+							<input type="date" id="start_date" name="Start Date">
+						</div>
+					</div>
+					<h3>Room Options:</h3>
+					<table>
+						<tr>
+							<td><img src="./images/poolview2.jpg" alt="Room Type 1"></td>
+							<td><img src="./images/bedroom3.jpg" alt="Room Type 2"></td>
+							<td><img src="./images/hotel-room2.jpg" alt="Room Type 3"></td>
+						</tr>
+						<tr>
+							<td>Indulge in the epitome of luxury and relaxation with our exquisite Pool View Rooms. Designed
+								to offer a serene escape, these thoughtfully curated accommodations provide a perfect blend
+								of comfort and elegance.</td>
+							<td>Discover unparalleled comfort and sophistication in our Deluxe King Rooms. Crafted with
+								meticulous attention to detail, these rooms offer a perfect blend of luxury and modern
+								amenities for an exceptional stay.</td>
+							<td>Immerse yourself in the charm of our Deluxe Queen Rooms, where timeless elegance meets
+								modern comfort. Thoughtfully designed and meticulously appointed, these rooms offer a
+								delightful retreat for a memorable stay.</td>
+						</tr>
+						<tr>
+							<td>Pool View Rooms</td>
+							<td>Deluxe King Rooms</td>
+							<td>Deluxe Queen Rooms</td>
+						</tr>
+					</table>
+					<label for="Rooms">Choose a room:</label>
+					<select name="cars" id="cars">
+						<option value="room1">Pool View Rooms</option>
+						<option value="room2">Deluxe King Rooms</option>
+						<option value="room3">Deluxe Queen Rooms</option>
+					</select>
+					<div class="padding-space"></div>
+					<h3>Special Requests:</h3>
+					<textarea name="Request" cols="40" rows="7"></textarea>
+					<div class="padding-space"></div>
+					<h3>Confirm!</h3>
+					<input type="submit" value="Submit" class="button">
+				</div>
+			</main>
+			<footer>
+				<div class="copyright">
+					<p>&copy; Copyright 2023 Elegant Haven Inc., (USA) All Rights Reserved.</p>
+					<p><a href="mailto:reservations@eleganthavenhotel.com">reservations@eleganthavenhotel.com</a></p>
+				</div>
+				<div class="social">
+					<a href="https://www.facebook.com" target="_blank">
+						<img src="images/facebook-logo.png" alt="Facebook logo">
+					</a>
+					<a href="https://www.twitter.com" target="_blank">
+						<img src="images/twitter-logo.png" alt="Twitter logo">
+					</a>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
