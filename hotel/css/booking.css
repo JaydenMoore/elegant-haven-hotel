@@ -21,11 +21,16 @@
     padding: 1em;
 }
 
-h3 {
-    margin-bottom: 1em;
-}
-
 textarea {
     width: 60%;
     margin: 1em;
+}
+
+select {
+    width: 30%;
+    text-align-last:center;
+}
+
+input {
+    width: 20%
 }

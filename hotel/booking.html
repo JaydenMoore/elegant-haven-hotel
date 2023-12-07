@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<!--  
+	<!--  
 	File Name: booking.html
 	Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
 	Course: COP 2822C at Valencia College
@@ -71,7 +71,6 @@
 						<input type="date" id="start_date" name="Start Date">
 					</div>
 				</div>
-
 				<h3>Room Options:</h3>
 				<table>
 					<tr>
@@ -96,11 +95,18 @@
 						<td>Deluxe Queen Rooms</td>
 					</tr>
 				</table>
-				
+				<label for="Rooms">Choose a room:</label>
+				<select name="cars" id="cars">
+					<option value="room1">Pool View Rooms</option>
+					<option value="room2">Deluxe King Rooms</option>
+					<option value="room3">Deluxe Queen Rooms</option>
+				</select>
 				<div class="padding-space"></div>
-
 				<h3>Special Requests:</h3>
 				<textarea name="Request" cols="40" rows="7"></textarea>
+				<div class="padding-space"></div>
+				<h3>Confirm!</h3>
+				<input name="confirm" type="button" text="Confirm">
 			</div>
 		</main>
 		<footer>
