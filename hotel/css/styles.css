@@ -193,6 +193,56 @@ tr img {
     color: #888;
 }
 
+/* Style rules for contact*/
+body {
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, {
+    margin-bottom: 15px;
+}
+
+p, ul, ol, li {
+    margin-bottom: 10px;
+}
+
+#common-questions {
+    margin-bottom: 40px;
+}
+
+#speak-to-representative {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea,
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Style rules for buttons*/
+.button {
+    background-color: #99dc62;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #d5b306;
+}
+
 /* Style rules for container elements */
 .container {
     max-height: 700px;
