@@ -1,22 +1,31 @@
+/*
+	File Name:		events.css
+	Names:			Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+	Course:			COP 2822C at Valencia College
+	Professor:		David Stendel
+	Description:	The styling page for events.html
+	Date:			12/06/2023
+*/
+
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 body {
-    font-family: Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 }
 
 h3 {
-    padding-top: 3em;
-    padding-bottom: 2em;
+	padding-top: 3em;
+	padding-bottom: 2em;
 }
 
 /* Calendar Container */
 .calendar {
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	
 }
 
 /* Month header */
@@ -73,6 +82,6 @@ h3 {
 
 /* Highlight the hovered day */
 .days li:hover {
-    background-color: #1abc9c;
-    color: white;
+	background-color: #1abc9c;
+	color: white;
 }
