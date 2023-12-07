@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.padding-space {
-    padding: 1em;
-}
-
 textarea {
     width: 60%;
     margin: 1em;
