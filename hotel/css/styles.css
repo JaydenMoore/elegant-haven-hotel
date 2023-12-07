@@ -243,6 +243,27 @@ input {
     background-color: #d5b306;
 }
 
+/*Style rules for class and id selectors*/
+aside{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #c5a687;
+  
+  }
+  
+  figure {
+      border: 1px solid #ddd;
+      box-shadow: 6px 6px 10px #c5a687;
+      max-width: 400px;
+      margin: 2% auto;
+  }
+  
+  figcaption {
+      padding: 2%;
+      border-top: 1px solid #ddd;
+  }
+
 /* Style rules for container elements */
 .container {
     max-height: 700px;
