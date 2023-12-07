@@ -1,16 +1,22 @@
 <!DOCTYPE html>
+<html lang="en">
+
+    <head>
 <!--  
-Programmers: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
 File Name: index.html
+Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+Course: COP 2822C at Valencia College
+Professor: David Stendel 
+Description: The home page of the website is the main page used to create a welcoming atmosphere, showcasing the hotel and encouraging bookings.
 Date: 11/19/2023
 -->
 <html lang="en">
+
 <head>
     <title>Elegant Haven Hotel - Home</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-
+    <!-- Google Fonts Style Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -22,6 +28,10 @@ Date: 11/19/2023
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -30,20 +40,17 @@ Date: 11/19/2023
     <div id="wrapper">
         <!-- -->
         <header>
-            <!-- Hero Image Here -->
+            <!-- Hero Image -->
             <div class="tab-desk container">
-                <!-- Specific content if on tablet or desktop -->
+                <a href="index.html">
                 <img src="./images/hotel-landscape.jpg" alt="hotel landscape" class="container-img">
-            </div>
-            <div class="mobile">
-                <!-- Specific content if on mobile -->
             </div>
         </header>
         
         <!-- Navigation Menu -->
         <nav>
             <ul>
-                <li><a href="index.html"><img src="./images/ElegantHavenLogo.png"></a></li>
+                <li><a href="index.html"><img src="./images/ElegantHavenLogo.PNG"></a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="booking.html">Booking</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -53,62 +60,61 @@ Date: 11/19/2023
             </ul>
         </nav>
         <!-- Use the main area to add the main content to the webpage -->
+                <h4>Your Comfortable Retreat</h4>
         <main id="content">
             <div>
                 <h1>Featured Rooms</h1>
                 <table>
                     <tr>
-                        <td>Room Type 1</td>
-                        <td>Room Type 2</td>
-                        <td>Room Type 3</td>
+                        <td><img src="./images/pool view2.jpg" alt="Room Type 1"></td>
+                        <td><img src="./images/bedroom 3.jpg" alt="Room Type 2"></td>
+                        <td><img src="./images/hotel-room2.jpg" alt="Room Type 3"></td>
                     </tr>
                     <tr>
-                        <td>Description</td>
-                        <td>Description</td>
-                        <td>Description</td>
+                        <td>Indulge in the epitome of luxury and relaxation with our exquisite Pool View Rooms. Designed to offer a serene escape, these thoughtfully curated accommodations provide a perfect blend of comfort and elegance.</td>
+                        <td>Discover unparalleled comfort and sophistication in our Deluxe King Rooms. Crafted with meticulous attention to detail, these rooms offer a perfect blend of luxury and modern amenities for an exceptional stay.</td>
+                        <td>Immerse yourself in the charm of our Deluxe Queen Rooms, where timeless elegance meets modern comfort. Thoughtfully designed and meticulously appointed, these rooms offer a delightful retreat for a memorable stay.</td>
                     </tr>
                     <tr>
-                        <td><img src="./images/room1.jpg" alt="Room Type 1"></td>
-                        <td><img src="./images/room2.jpg" alt="Room Type 2"></td>
-                        <td><img src="./images/room3.jpg" alt="Room Type 3"></td>
+                        <td>Pool View Rooms</td>
+                        <td>Deluxe King Rooms</td>
+                        <td>Deluxe Queen Rooms</td>
                     </tr>
                 </table>
 
                 <h1>Special Offers</h1>
                 <div class="package">
                     <h2>Package 1</h2>
-                    <p>Description of the package and its amenities. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                    <p>Description of the package and its amenities. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <p>Price: $199 per night</p>
                 </div>
 
                 <div class="package">
                     <h2>Package 2</h2>
-                    <p>Description of the package and its amenities. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                    <p>Description of the package and its amenities. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <p>Price: $249 per night</p>
                 </div>
 
                 <h1>Testimonials</h1>
                 <div class="testimonial">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua."</p>
                     <p>- John Doe</p>
                 </div>
 
-                <div class="testimonial">
-                    <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat."</p>
-                    <p>- Jane Smith</p>
+                    <div class="testimonial">
+                        <p class="testimonial-text">"I recently had the pleasure of staying at the Elegant Haven Hotel and it exceeded all my expectations. The staff was incredibly friendly and attentive, ensuring that every aspect of my stay was comfortable and enjoyable. The rooms were beautifully decorated, equipped with top-notch amenities, and provided a luxurious ambiance. The hotel's location was ideal, offering stunning views of the cityscape. I highly recommend this hotel to anyone seeking a memorable and extraordinary experience."
+                        </p>
+                        <p class="testimonial-author">- Jane Smith</p>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
             <div class="copyright">
-                <p>&copy; Copyright 2023. All Rights Reserved.</p>
+                <p>&copy; Copyright 2023 Elegant Haven Inc., (USA) All Rights Reserved.</p>
                 <p><a href="mailto:reservations@eleganthavenhotel.com">reservations@eleganthavenhotel.com</a></p>
             </div>
             <div class="social">
