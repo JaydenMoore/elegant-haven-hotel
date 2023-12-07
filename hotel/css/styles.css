@@ -66,6 +66,7 @@ h3 {
 }
 
 h4 {
+    padding-top: 4%;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     padding-bottom: 4%;
@@ -152,6 +153,10 @@ th, td {
 img {
     max-width: 100%;
     height: auto;
+}
+
+tr img {
+    object-fit: contain;
 }
 
 .package {
