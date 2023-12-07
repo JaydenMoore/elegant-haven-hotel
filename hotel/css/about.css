@@ -1,0 +1,28 @@
+/*
+	File Name:		about.css
+	Names:			Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+	Course:			COP 2822C at Valencia College
+	Professor:		David Stendel
+	Description:	The styling page for about.html
+	Date:			12/07/2023
+*/
+
+p {
+    padding-bottom: 3em;
+}
+
+ul {
+    padding-bottom: 3em;
+}
+
+.title {
+    padding: 1em;
+}
+
+.email {
+    padding: 1em;
+}
+
+.description {
+    padding: 0em;
+}

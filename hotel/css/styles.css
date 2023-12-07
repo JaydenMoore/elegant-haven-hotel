@@ -1,10 +1,10 @@
 /*
-File Name: styles.css
-Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
-Course: COP 2822C at Valencia College
-Professor: David Stendel 
-Description: The styles page is where all of the code for the websites styles are held for the programmers eyes only.
-Date: 11/19/2023
+    File Name: styles.css
+    Names: Connor Anglin Thompson, Jayden Crispin Moore, Yomalier Vazquez Maldonado
+    Course: COP 2822C at Valencia College
+    Professor: David Stendel 
+    Description: The styles page is where all of the code for the websites styles are held for the programmers eyes only.
+    Date: 12/06/2023
 */
 
 /* CSS Reset */
@@ -17,54 +17,22 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, ul, img {
 /*Style rules for body and images*/
 body {
     background-color: #ffffff;
-    /*Update Background Color*/
 }
 
 img, video {
     max-width: 100%;
     max-height: auto;
     display: block;
-}
-
-/* Style rules for skip navigation link */
-.skip {
-    position: absolute;
-    left: -999px;
-}
-
-.skip:focus {
-    color: #fff;
-    background-color: #2a1f14;
-    text-decoration: none;
-    padding: 0.5%;
-    top: auto;
-    left: auto;
-    right: 1px;
-    z-index: 1;
-}
-
-/* Style rules for mobile viewport */
-
-/* Style rules to show mobile class and hide tab-desk class */
-.mobile, .mobile-tablet {
-    display: block;
-}
-
-.tab-desk,
-.desktop {
-    display: none;
+    margin: auto
 }
 
 /*Style rules for header area */
 h1 {
     font-family: 'Roboto', sans-serif;
-
-
 }
 
 h3 {
     font-family: 'ABeeZee', sans-serif;
-
 }
 
 h4 {
@@ -76,12 +44,10 @@ h4 {
 }
 
 /* Style rules for body */
-
 body {
     background-color: #ededebd9;
 }
 
-/*Instead create a grid box with the image as a left cell and everything else in one big cell
 /* Style rules for navigation area */
 nav {
     background-color: #d5b306;
@@ -113,9 +79,7 @@ nav li img {
     float: left
 }
 
-nav a:link,
-nav a:active,
-nav a:visited {
+nav a:link, nav a:active, nav a:visited {
     color: white;
     padding: 1em;
     text-decoration: none;
@@ -129,7 +93,6 @@ nav li a:hover {
 /* Style Rules for main */
 main {
     font-family: 'Lora', serif;
-
 }
 
 /* Styling for featured rooms and packages */
@@ -145,14 +108,11 @@ table {
     margin-bottom: 20px;
 }
 
-table,
-th,
-td {
+table, th, td {
     border: 2px solid #ffffff;
 }
 
-th,
-td {
+th,td {
     padding: 15px;
 }
 
@@ -288,7 +248,6 @@ h1 {
 
 
 /* Style rules for footer */
-
 footer {
     background-color: #d5b306;
     text-align: center;
@@ -303,32 +262,4 @@ footer {
 .social img {
     display: inline-block;
     padding: 4%;
-}
-
-/* Media Query for Tablet Viewport */
-@media screen and (min-width:620px),
-print {
-
-    /* Tablet Viewport: Show tab-desk class, hide mobile class */
-    .tab-desk {
-        display: block;
-    }
-
-    .mobile {
-        display: none;
-    }
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width:1000px),
-print {
-
-    /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
-    .desktop {
-        display: block;
-    }
-
-    .mobile-tablet {
-        display: none;
-    }
 }

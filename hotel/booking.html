@@ -15,24 +15,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/booking.css">
-		<!-- Google Fonts Style Links -->
+		<!-- Roboto Font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+		<!-- ABeeZee Font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-
+		<!-- Lora Font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
+		<!-- Dancing Script Font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 	</head>
-
 	<body>
 		<div id="wrapper">
 			<header>
@@ -40,23 +39,24 @@
 				<div class="tab-desk container">
 					<img src="./images/hotel-landscape.jpg" alt="hotel exterior" class="container-img">
 				</div>
+				<!-- Navigation Bar -->
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="./images/ElegantHavenLogo.png"></a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="booking.html">Booking</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="help.html">Help</a></li>
+					</ul>
+				</nav>
 			</header>
-			<nav>
-				<ul>
-					<li><a href="index.html"><img src="./images/ElegantHavenLogo.png"></a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="booking.html">Booking</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="help.html">Help</a></li>
-				</ul>
-			</nav>
-			<!-- Contains all of the main content for the home page --> 
+			<!-- Contains all of the main content for the booking page --> 
 			<main id="content">
 				<div>
 					<h4>Book Now!</h4>
-
+					<!-- Date Picker for reservation duration -->
 					<h3>Select a Date:</h3>
 					<div class="date-container">
 						<div class="collect-date">
@@ -68,6 +68,7 @@
 							<input type="date" id="start_date" name="Start Date">
 						</div>
 					</div>
+					<!-- Types of rooms available for reservation -->
 					<h3>Room Options:</h3>
 					<table>
 						<tr>
@@ -92,6 +93,7 @@
 							<td>Deluxe Queen Rooms</td>
 						</tr>
 					</table>
+					<!-- Dropdown to handle chosen room request -->
 					<label for="Rooms">Choose a room:</label>
 					<select name="cars" id="cars">
 						<option value="room1">Pool View Rooms</option>
