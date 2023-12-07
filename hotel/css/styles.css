@@ -8,7 +8,18 @@ Date: 11/19/2023
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h2, h3, h4, ul, img {
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+h2,
+h3,
+h4,
+ul,
+img {
     margin: 0;
     padding: 0;
     border: 0;
@@ -16,10 +27,12 @@ body, header, nav, main, footer, img, h1, h2, h3, h4, ul, img {
 
 /*Style rules for body and images*/
 body {
-    background-color: #ffffff; /*Update Background Color*/
+    background-color: #ffffff;
+    /*Update Background Color*/
 }
-  
-img, video {
+
+img,
+video {
     max-width: 100%;
     max-height: auto;
     display: block;
@@ -30,7 +43,7 @@ img, video {
     position: absolute;
     left: -999px;
 }
- 
+
 .skip:focus {
     color: #fff;
     background-color: #2a1f14;
@@ -45,11 +58,13 @@ img, video {
 /* Style rules for mobile viewport */
 
 /* Style rules to show mobile class and hide tab-desk class */
-.mobile, .mobile-tablet {
+.mobile,
+.mobile-tablet {
     display: block;
 }
 
-.tab-desk, .desktop {
+.tab-desk,
+.desktop {
     display: none;
 }
 
@@ -87,15 +102,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-  
+
 nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0.5em;
 }
-  
+
 nav li {
     display: inline;
     font-size: 1.5em;
@@ -111,7 +126,9 @@ nav li img {
     float: left
 }
 
-nav a:link, nav a:active, nav a:visited{
+nav a:link,
+nav a:active,
+nav a:visited {
     color: white;
     padding: 1em;
     text-decoration: none;
@@ -123,13 +140,13 @@ nav li a:hover {
 }
 
 /* Style Rules for main */
-main { 
+main {
     font-family: 'Lora', serif;
 
 }
 
- /* Styling for featured rooms and packages */
- #content {
+/* Styling for featured rooms and packages */
+#content {
     text-align: center;
 }
 
@@ -141,11 +158,14 @@ table {
     margin-bottom: 20px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 2px solid #ffffff;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
 }
 
@@ -167,8 +187,8 @@ tr img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
- /* Style rules for testimonials */
- .testimonial-container {
+/* Style rules for testimonials */
+.testimonial-container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -198,11 +218,17 @@ body {
     letter-spacing: 0.02em;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin-bottom: 15px;
 }
 
-p, ul, ol, li {
+p,
+ul,
+ol,
+li {
     margin-bottom: 10px;
 }
 
@@ -243,25 +269,25 @@ input {
 }
 
 /*Style rules for class and id selectors*/
-aside{
+aside {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 4px 4px 10px #c5a687;
-  
-  }
-  
-  figure {
-      border: 1px solid #ddd;
-      box-shadow: 6px 6px 10px #c5a687;
-      max-width: 400px;
-      margin: 2% auto;
-  }
-  
-  figcaption {
-      padding: 2%;
-      border-top: 1px solid #ddd;
-  }
+
+}
+
+figure {
+    border: 1px solid #ddd;
+    box-shadow: 6px 6px 10px #c5a687;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 2%;
+    border-top: 1px solid #ddd;
+}
 
 /* Style rules for container elements */
 .container {
@@ -273,13 +299,13 @@ aside{
 .container-img {
     width: 100%;
     object-fit: fill;
-} 
+}
 
 h1 {
     text-align: center;
     padding: 2em;
 }
-    
+
 
 /* Style rules for footer */
 
